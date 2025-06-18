@@ -183,3 +183,64 @@ footer {
     text-decoration: underline;
 }
 
+/* ######### */
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.media-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.project-media {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .project {
+        max-width: 100%;
+    }
+
+    .media-container {
+        flex-direction: column;
+    }
+}
+
+
+.media-container {
+    display: flex;               /* Arrange media items in a row */
+    gap: 10px;                   /* Space between images */
+    justify-content: center;     /* Center align horizontally */
+    align-items: center;         /* Align vertically center */
+    flex-wrap: wrap;             /* Wrap to next line if not enough space */
+}
+
+.project-media {
+    max-width: 100%;             /* Make sure image doesn't overflow container */
+    max-height: 200px;           /* Limit max height for uniformity */
+    object-fit: contain;         /* Keep aspect ratio */
+    border-radius: 8px;          /* Optional: round corners */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15); /* subtle shadow */
+}
+
+

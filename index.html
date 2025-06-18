@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Ragu - Portfolio</title>
+    <title>Ragu B - Robotics Engineer Portfolio</title>
     <link rel="stylesheet" href="styles.css"/>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
@@ -14,140 +14,124 @@
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#publications">Publications</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="ragu_resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+                <li><a href="ragu_resume.pdf" target="_blank" rel="noopener noreferrer">CV</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="hero" class="hero">
-        <h1>Hi, I'm <span class="highlight">Ragu B</span></h1>
+        <h1>Hi, I'm <span class="highlight">Ragu</span></h1>
         <h2><span id="typed-text"></span></h2>
     </section>
 
     <section id="about">
         <h2>About Me</h2>
         <p>
-            I'm a passionate robotics software engineer driven by the challenge of bringing robots to life and solving real-world problems with intelligent, practical solutions.  
-            Currently, I work as a robotics software engineer with the 
+            I'm a passionate robotics engineer driven by the challenge of bringing robots to life and solving real-world problems with intelligent, practical solutions. 
+            Currently, I work as a robotics engineer with the 
             <a href="https://igrs.hticlab.org/" class="no-underline" target="_blank" rel="noopener noreferrer">
                 Image-Guided Robotic Systems Group
             </a> at 
             <a href="https://www.hticiitm.org/" class="no-underline" target="_blank" rel="noopener noreferrer">
                 HTIC–IIT Madras
-            </a>, where I develop intelligent systems at the intersection of artificial intelligence, healthcare, and medical robotics.  
-            My work involves building deep learning models from the ground up—including architecture design, training, and deployment—for a wide range of real-world applications.
+            </a>,
+            where I develop intelligent systems at the intersection of artificial intelligence, healthcare, and medical robotics. My work involves developing motion planners for robotic systems and building AI agents from the ground up including architecture design, training, and deployment—for a wide range of real-world applications.
         </p>
     </section>
 
-
     <section id="projects">
         <h2>Projects</h2>
-    
-        <div class="Robotic Ultrasound system">
-            <p>
-                <strong>Robotic Ultrasound system:</strong> 
-            </a>, 
-            An Robotic Ultrasound system which performe autonomous US scan for expectant mothers
-            </p>
+        <div class="projects-grid">
+
+            <!-- spine -->
+
+            <div class="project">
+                <div class="media-container">
+                <img src="INPUT_SOURCE/SPINE/Spine.png" alt="Hybrid Spine Planner GIF" class="project-media">
+                <img src="INPUT_SOURCE/SPINE/spinesim.gif" alt="Hybrid Spine Planner GIF" class="project-media">
+                </div>
+                <h3>Hybrid-Spine Surgical Motion Planner</h3>
+                <p>Engineered a hybrid motion planner combining geometric and constrained sampling methods for spine surgical procedures.</p>
+                <p>The motion planner has been tested and validated in a cadaver setting.</p>
+            </div>
+
+                <!-- US -->
+
+            <div class="project">
+                <div class="media-container">
+                    <img src="INPUT_SOURCE/US/cusp_ai_assistance.gif" alt="UC GIF" class="project-media">
+                    <img src="INPUT_SOURCE/US/cusp_robot.jpg" alt="US Image" class="project-media">
+                </div>
+                <h3>Robotic Ultrasound (Autonomous Manupulation)</h3>
+                <p>Developing RL based image servoving module to detect standard planes in Antenatal Ultrasound systems.</p>
+            </div>
+
+
+                <!-- RL -->
+
+            <div class="project">
+                <div class="media-container">
+                    <img src="INPUT_SOURCE/RL/GIF/ANT.gif" alt="RL GIF" class="project-media">
+                    <img src="INPUT_SOURCE/RL/GIF/HOPPER.gif" alt="RL GIF" class="project-media">
+                    <img src="INPUT_SOURCE/RL/GIF/HUMANOID.gif" alt="RL GIF" class="project-media">
+                    <img src="INPUT_SOURCE/RL/GIF/CHEETA.gif" alt="RL GIF" class="project-media">
+
+                </div>
+                <h3>Reinforcement Learning Algorithms</h3>
+                <p>Implemented policy gradient and actor-critic methods for OpenAI Gym environments.</p>
+            </div>
+
+            <!-- Rcm -->
+
+            <div class="project">
+                <div class="media-container">
+                    <img src="INPUT_SOURCE/RCM/pictures/RCM_parameters_1.png" alt="RCM Image" class="project-media">
+                    <img src="INPUT_SOURCE/RCM/videos/DUAL_RCM.gif" alt="RCM GIF" class="project-media">
+                </div>
+                <h3>Motion Planner for Laproscopy</h3>
+                <p>Implemented constrained motion planner for Remote center of motion operation.</p>
+            </div>
+
+            
         </div>
-
-
-        <div class="Robotic Pedical screw Instrumentation in Spine">
-            <p>
-                <strong>Robotic Pedical screw Instrumentation:</strong> 
-            </a>, 
-            An Robotic Pedical screw Instrumentation system which aids doctor in plannig pedical screw in spine.
-            </p>
-        </div>
-    
-
-
-
-        <div class="Reinforcement learning">
-            <p>
-                <strong>Reinforcement learning:</strong> 
-            </a>, 
-                Reinforcement learning algorithms with Open AI gym Enviroment.
-            </p>
-        </div>
-    
     </section>
-
 
     <section id="publications">
         <h2>Publications</h2>
-    
         <div class="publication">
-            <p>
-                <strong>XP-Net:</strong> 
-                <a href="paper1.pdf" target="_blank" rel="noopener noreferrer">An Attention Segmentation Network by Dual Teacher Hierarchical Knowledge Distillation for Polyp Generalization. 
-                    <em>CEUR Workshop Proceedings (CEUR-WS.org)</a>
-            </p>
+            <h3>XP-Net</h3>
+            <p><a href="http://ceur-ws.org/Vol-3148/paper8.pdf" target="_blank">An Attention Segmentation Network by Dual Teacher Hierarchical Knowledge Distillation for Polyp Generalization. CEUR Workshop Proceedings.</a></p>
         </div>
-    
         <div class="publication">
-            <p>
-                <strong>Motion Planning and Long-term Robot Monitoring Perspective:</strong>
-                <a href="https://ieeexplore.ieee.org/document/10596777" target="_blank" rel="noopener noreferrer">A Cadaver Study on Robot-Assisted Pedicle Screw Fixation. IEEE Medical Measurements & Applications</a>
-            </p>
+            <h3>Motion Planning in Robot-Assisted Surgery</h3>
+            <p><a href="https://ieeexplore.ieee.org/document/10596777" target="_blank">A Cadaver Study on Robot-Assisted Pedicle Screw Fixation. IEEE Medical Measurements & Applications.</a></p>
         </div>
-    
-        <div class="publication">
-            <p>
-                <strong>Robust Hand-Eye Calibration Workflow for Robotic Spine Surgery:</strong>  
-                <a href="https://memea2025.ieee-ims.org/" target="_blank" rel="noopener noreferrer">Insights from a Cadaver Study. IEEE Medical Measurements & Applications</a>
-            </p>
-        </div>
-    </section>
-    
-    <section id="recent-posts">
-        <h2>Recent Posts</h2>
-        <ul class="recent-posts-list">
-            <!-- <li>
-                <strong>May 18, 2025:</strong>
-                <a href="posts/project_1.html" target="_blank">
-                    Literate Computing with Emacs: Org Mode Meets Jupyter
-                </a>
-            </li> -->
-            <!-- <li>
-                <strong>May 17, 2025:</strong>
-                <a href="posts/project_2.html" target="_blank">
-                    Build Emacs From Source
-                </a>
-            </li> -->
-            <li>
-                <strong>Oct 08, 2024:</strong>
-                <a href="posts/project_3.html" target="_blank">
-                    AI-Powered Robotic Ultrasound: Transforming Prenatal Screening at CUSP Conference
-                </a>
-            </li>
-        </ul>
-    </section>
-    
-    
 
+        <div class="publication">
+            <h3>Hand-Eye Calibration in Robot-Assisted Surgery</h3>
+            <p><a href="https://ieeexplore.ieee.org/document/10596777" target="_blank">Robust Hand-Eye Calibration Workflow for Robotic Spine Surgery: Insights from a Cadaver Study. IEEE Medical Measurements & Applications.</a></p>
+        </div>
+    </section>
+    
     <section id="contact">
         <h2>Contact</h2>
         <p>Email: <a href="mailto:1999ragu@gmail.com">1999ragu@gmail.com</a></p>
-        <p>Phone: <a href="tel:8056056367">8056056367</a></p>
+        <p>Phone: <a href="tel:+918056056367">+91 80560 56367</a></p>
         <div class="social-links">
-            <a href="https://github.com/Ragu2399" target="_blank">
-                <img src="images/github.png" alt="GitHub" class="icon" />
-            </a>
-            <a href="https://www.linkedin.com/in/ragu-b-814886191" target="_blank">
-                <img src="images/linkedin.png" alt="LinkedIn" class="icon" />
-            </a>
+            <a href="https://github.com/Ragu2399" target="_blank"><img src="INPUT_SOURCE/github.png" alt="GitHub" class="icon"/></a>
+            <a href="https://www.linkedin.com/in/ragu-b-814886191" target="_blank"><img src="INPUT_SOURCE/linkedin.png" alt="LinkedIn" class="icon"/></a>
         </div>
     </section>
-    
+
     <footer>
         <p>&copy; 2025 Ragu B. All Rights Reserved.</p>
     </footer>
 
     <script>
         new Typed("#typed-text", {
-            strings: ["Bringing Robot to life"],
+            strings: ["Bringing Robots to Life", "Optimizing Robotic Motion", "Navigating Dynamic Environments"],
             typeSpeed: 50,
             backSpeed: 30,
             loop: true
