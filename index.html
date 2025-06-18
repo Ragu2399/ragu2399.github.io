@@ -29,16 +29,21 @@
     <section id="about">
         <h2>About Me</h2>
         <p>
-            I'm a passionate robotics engineer driven by the challenge of bringing robots to life and solving real-world problems with intelligent, practical solutions. 
-            Currently, I work as a robotics engineer with the 
-            <a href="https://igrs.hticlab.org/" class="no-underline" target="_blank" rel="noopener noreferrer">
-                Image-Guided Robotic Systems Group
-            </a> at 
-            <a href="https://www.hticiitm.org/" class="no-underline" target="_blank" rel="noopener noreferrer">
-                HTIC–IIT Madras
-            </a>,
-            where I develop intelligent systems at the intersection of artificial intelligence, healthcare, and medical robotics. My work involves developing motion planners for robotic systems and building AI agents from the ground up including architecture design, training, and deployment—for a wide range of real-world applications.
-        </p>
+            I am a robotics engineer currently working as a Project Associate in the
+            <a href="https://igrs.hticlab.org/" class="no-underline" target="_blank" rel="noopener noreferrer">Image-Guided Robotic Systems (IGRS) Group</a> at
+            <a href="https://www.hticiitm.org/" class="no-underline" target="_blank" rel="noopener noreferrer">HTIC–IIT Madras</a>, 
+            focusing on robot <strong>motion planning</strong> and <strong>reinforcement learning</strong>.
+            
+            My work involves developing motion planners for robotic-assisted surgeries,
+             including percutaneous interventional spinal procedures, and creating reinforcement
+              learning-based visual servoing modules used in autonomous antenatal ultrasound scanning. 
+              I have well-rounded experience in building modules for robotic spine surgery, from developing computational
+               frameworks to deploying and validating robots in cadaveric settings.
+            
+            Additionally, I have hands-on experience with deep learning, having developed models
+             for an indigenous endoscopy system, encompassing tasks such as data collection, model building,
+              and deploying real-time solutions on edge devices.
+       </p>
     </section>
 
     <section id="projects">
@@ -53,7 +58,7 @@
                 <img src="INPUT_SOURCE/SPINE/spinesim.gif" alt="Hybrid Spine Planner GIF" class="project-media">
                 </div>
                 <h3>Hybrid-Spine Surgical Motion Planner</h3>
-                <p>Engineered a hybrid motion planner combining geometric and constrained sampling methods for spine surgical procedures.</p>
+                <p>Engineered a hybrid motion planner combining geometric and constrained sampling methods for percutaneous interventional spinal procedures.</p>
                 <p>The motion planner has been tested and validated in a cadaver setting.</p>
             </div>
 
@@ -65,7 +70,7 @@
                     <img src="INPUT_SOURCE/US/cusp_robot.jpg" alt="US Image" class="project-media">
                 </div>
                 <h3>Robotic Ultrasound (Autonomous Manupulation)</h3>
-                <p>Developing RL based image servoving module to detect standard planes in Antenatal Ultrasound systems.</p>
+                <p>Developing Reinforcement Learning based image servoving module to detect standard planes in Antenatal Ultrasound systems.</p>
             </div>
 
 
@@ -80,7 +85,7 @@
 
                 </div>
                 <h3>Reinforcement Learning Algorithms</h3>
-                <p>Implemented policy gradient and actor-critic methods for OpenAI Gym environments.</p>
+                <p>Implemention of policy gradient and actor-critic methods for Different OpenAI Gym environments.</p>
             </div>
 
             <!-- Rcm -->
@@ -91,7 +96,8 @@
                     <img src="INPUT_SOURCE/RCM/videos/DUAL_RCM.gif" alt="RCM GIF" class="project-media">
                 </div>
                 <h3>Motion Planner for Laproscopy</h3>
-                <p>Implemented constrained motion planner for Remote center of motion operation.</p>
+                <p>Implemented constrained motion planner for Remote center of motion(RCM) surgical application such as 
+                    Laproscopy .</p>
             </div>
 
             
@@ -101,18 +107,20 @@
     <section id="publications">
         <h2>Publications</h2>
         <div class="publication">
-            <h3>XP-Net</h3>
-            <p><a href="http://ceur-ws.org/Vol-3148/paper8.pdf" target="_blank">An Attention Segmentation Network by Dual Teacher Hierarchical Knowledge Distillation for Polyp Generalization. CEUR Workshop Proceedings.</a></p>
+            <h3>Hand-Eye Calibration in Robot-Assisted Surgery</h3>
+            <p><a href="https://ieeexplore.ieee.org/document/10596777" target="_blank">Robust Hand-Eye Calibration Workflow for Robotic Spine Surgery: Insights from a Cadaver Study. IEEE Medical Measurements & Applications.</a></p>
         </div>
         <div class="publication">
             <h3>Motion Planning in Robot-Assisted Surgery</h3>
             <p><a href="https://ieeexplore.ieee.org/document/10596777" target="_blank">A Cadaver Study on Robot-Assisted Pedicle Screw Fixation. IEEE Medical Measurements & Applications.</a></p>
         </div>
-
         <div class="publication">
-            <h3>Hand-Eye Calibration in Robot-Assisted Surgery</h3>
-            <p><a href="https://ieeexplore.ieee.org/document/10596777" target="_blank">Robust Hand-Eye Calibration Workflow for Robotic Spine Surgery: Insights from a Cadaver Study. IEEE Medical Measurements & Applications.</a></p>
+            <h3>XP-Net</h3>
+            <p><a href="http://ceur-ws.org/Vol-3148/paper8.pdf" target="_blank">An Attention Segmentation Network by Dual Teacher Hierarchical Knowledge Distillation for Polyp Generalization. CEUR Workshop Proceedings.</a></p>
         </div>
+
+
+
     </section>
     
     <section id="contact">
@@ -129,13 +137,13 @@
         <p>&copy; 2025 Ragu B. All Rights Reserved.</p>
     </footer>
 
-    <script>
+    <!-- <script>
         new Typed("#typed-text", {
             strings: ["Bringing Robots to Life", "Optimizing Robotic Motion", "Navigating Dynamic Environments"],
             typeSpeed: 50,
             backSpeed: 30,
             loop: true
         });
-    </script>
+    </script> -->
 </body>
 </html>
